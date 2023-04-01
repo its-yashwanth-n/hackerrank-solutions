@@ -10,4 +10,5 @@ def sockMerchant(n, ar):
                 sock_dict[ar[i]] -= 2
         else:
             sock_dict[ar[i]] = 1
+            
     return pairs

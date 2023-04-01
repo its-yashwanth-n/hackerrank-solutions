@@ -1,5 +1,4 @@
 def bonAppetit(bill, k, charged):
-    
     overall_bill = sum(bill)
     actual = int((overall_bill - bill[k])/2)
     

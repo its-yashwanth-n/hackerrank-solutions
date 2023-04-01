@@ -1,5 +1,4 @@
 def getTotalX(a, b):
-    # Write your code here
     first = b[0]
     last = a[-1]
     result = 0
@@ -17,4 +16,5 @@ def getTotalX(a, b):
         if flag == 0:
             result += 1
         last += 1
+
     return result

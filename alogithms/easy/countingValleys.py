@@ -1,5 +1,4 @@
 def countingValleys(steps, path):
-
     valley_count = 0
     level = 0 
     
@@ -10,4 +9,5 @@ def countingValleys(steps, path):
             level -= 1
         if path[i] == "U" and level == 0:
             valley_count += 1
+            
     return valley_count
