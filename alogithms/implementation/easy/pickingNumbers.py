@@ -7,7 +7,6 @@ def pickingNumbers(a):
     while index < size:
         current_ele = a[index]
         count = 0
-        current = a[index]
         for j in range(index,size):
             if a[j] - current_ele <= 1:
                 count = count + 1
