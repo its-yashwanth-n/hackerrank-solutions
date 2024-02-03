@@ -1,3 +1,6 @@
+# Time Complexity: O(n)
+# Space Complexity O(1)
+
 def birthdayCakeCandles(candles):
     max = candles[0]
     count = 1
@@ -8,5 +11,5 @@ def birthdayCakeCandles(candles):
             count = 1
         elif max == candles[i]:
             count += 1
-            
+
     return count
