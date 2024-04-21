@@ -13,10 +13,10 @@ def plusMinus(arr):
 
     number_count = [0, 0, 0]
 
-    for i in range(size):
-        if arr[i] > 0:
+    for number in arr:
+        if number > 0:
             number_count[positive] += 1
-        elif arr[i] < 0:
+        elif number < 0:
             number_count[negative] += 1
         else:
             number_count[zeros] += 1
