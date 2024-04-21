@@ -1,7 +1,10 @@
 def birthday(s, d, m):
+
     result = 0
-    
-    for i in range(len(s)-m+1):
+    size = len(s)
+
+    for i in range(size-m+1):
+
         count = 1
         sum_val = s[i]
 
